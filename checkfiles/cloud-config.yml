@@ -26,7 +26,7 @@ runcmd:
 
 - set -ex
 - systemctl daemon-reload  # See https://bugs.launchpad.net/cloud-init/+bug/1449318
-- mkdir -p /s3/beta-files
+- mkdir -p /s3/beta-nw-files
 - mkdir -p /s3/beta-files-dev
 
 - curl -sS -L -o /usr/local/bin/goofys https://github.com/kahing/goofys/releases/download/v0.0.5/goofys
