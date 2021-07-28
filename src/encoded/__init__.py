@@ -179,7 +179,7 @@ def app_version(config):
     import subprocess
     try:
         version = subprocess.check_output(
-            ['git', '-C', os.path.dirname(__file__), 'describe']).decode('utf-8').strip()
+            ['git', '-C', os.path.dirname(__file__), 'describe', '--always']).decode('utf-8').strip()
         diff = subprocess.check_output(
             ['git', '-C', os.path.dirname(__file__), 'diff', '--no-ext-diff'])
         if diff:
@@ -242,9 +242,6 @@ def main(global_config, **local_config):
             timeout=60,
             maxsize=50
         )
-        config.include('.region_search')
-        config.include('.variant_search')
-        config.include('.region_indexer')
     config.include(static_resources)
     config.include(changelogs)
     config.registry['ontology'] = json_from_path(settings.get('ontology_path'), {})

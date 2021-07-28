@@ -256,7 +256,7 @@ def get_user_data(commit, config_file, data_insert, profile_name):
         )
     data_insert['LOCAL_SSH_KEY'] = ssh_pub_key
     # aws s3 authorized_keys folder
-    auth_base = 's3://encoded-conf-prod/ssh-keys'
+    auth_base = 's3://t2depi-conf-prod/ssh-keys'
     auth_type = 'prod'
     if profile_name != 'production':
         auth_type = 'demo'
@@ -393,7 +393,7 @@ def main():
     )
     parser.add_argument('-b', '--branch', default=None, help="Git branch or tag")
     parser.add_argument('-n', '--name', type=hostname, help="Instance name")
-    parser.add_argument('--wale-s3-prefix', default='s3://t2depi-backups/production')
+    parser.add_argument('--wale-s3-prefix', default='s3://beta-backups/production')
     parser.add_argument('--spot-instance', action='store_true', help="Launch as spot instance")
     parser.add_argument('--spot-price', default='0.70', help="Set price or keep default price of 0.70")
     parser.add_argument('--check-price', action='store_true', help="Check price on spot instances")

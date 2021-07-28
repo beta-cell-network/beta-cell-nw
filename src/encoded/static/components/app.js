@@ -14,7 +14,7 @@ import Home from './home';
 import newsHead from './page';
 
 const portal = {
-    portal_title: 'Diabetes Epigenome Atlas',
+    portal_title: 'Beta Cell Network',
     global_sections: [
         {
             id: 'about',
@@ -22,7 +22,6 @@ const portal = {
             children: [
                 { id: 'projectoverview', title: 'Project overview', url: '/about/contributors/' },
                 { id: 'policies', title: 'Policies', url: '/data-access-policies/' },
-                { id: 'news', title: 'News', url: '/search/?type=Page&news=true&status=released' },
                 { id: 'acknowledgements', title: 'Acknowledgements', url: '/acknowledgements/' },
                 { id: 'contact', title: 'Contact', url: '/help/contacts/' },
             ],
@@ -38,15 +37,6 @@ const portal = {
                 { id: 'perturbation', title: 'Gene Perturbation', url: '/matrix/?type=Perturbation' },
 		{ id: 'sep-mm-1' },
                 { id: 'publications', title: 'Publications', url: '/search/?type=Publication' },
-            ],
-        },
-        {
-            id: 'tools',
-            title: 'Tools',
-            children: [
-                { id: 'variant', title: 'Variant Search', url: '/variant-search/' },
-                { id: 'umap', title: 'Single Cell UMAP', url: 'http://www.single-cell.cmdga.org/cellxgene' },
-                { id: 'expression', title: 'Expression Profiles', url: 'http://www.single-cell.cmdga.org/gene-expression' },
             ],
         },
         {
