@@ -959,7 +959,7 @@ class ModelComponent extends React.Component {
                                     {context.model_name ?
                                         <div data-test="type">
                                             <dt>Model name</dt>
-                                            <dd className="sentence-case">{context.perturbation_type}</dd>
+                                            <dd className="sentence-case">{context.modification_type}</dd>
                                         </div>
                                     : null}
                                     {context.model_underlying_assay ?

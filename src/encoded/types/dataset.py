@@ -454,12 +454,12 @@ class Perturbation(FileSet, CalculatedBiosampleSlims, CalculatedBiosampleSynonym
         },
         'x': {
             'facets': [
-                'perturbation_type',
+                'modification_type',
                 'month_released',
                 'targets.label',
                 'files.file_type',
             ],
-            'group_by': 'perturbation_type',
+            'group_by': 'modification_type',
             'label': 'Type',
         },
     }
