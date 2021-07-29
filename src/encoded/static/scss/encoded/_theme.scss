@@ -8,121 +8,121 @@
 }
 
 .btn-info {
-    color: #428bca;
+    color: #43c2b3;
     background-color: #fff;
-    border: 1px solid #428bca;
+    border: 1px solid #43c2b3;
 
     .svg-icon {
         path, rect, polygon {
-            fill: #428bca;
+            fill: #43c2b3;
         }
     }
 
     &:active, &:focus {
-        color: darken(#428bca,20%) !important;
+        color: darken(#43c2b3,20%) !important;
         background-color: #fff !important;
-        border: 1px solid #428bca;
+        border: 1px solid #43c2b3;
     }
 
     &.active, &:active.active, .dropdown.open & {
-        color: darken(#428bca,20%) !important;
-        background-color: lighten(#428bca,30%) !important;
-        border: 1px solid #428bca !important;
+        color: darken(#43c2b3,20%) !important;
+        background-color: lighten(#43c2b3,30%) !important;
+        border: 1px solid #43c2b3 !important;
     }
 
     &:hover {
-        color: darken(#428bca,20%);
-        background-color: lighten(#428bca,30%);
-        border: 1px solid #428bca;
+        color: darken(#43c2b3,20%);
+        background-color: lighten(#43c2b3,30%);
+        border: 1px solid #43c2b3;
 
         .svg-icon {
             path {
-                fill: darken(#428bca,20%);
+                fill: darken(#43c2b3,20%);
             }
         }
     }
 
     &[disabled] {
         background-color: #fff;
-        color: lighten(#428bca,20%) !important;
+        color: lighten(#43c2b3,20%) !important;
     }
 }
 .btn-search {
     color: #fff;
-    background-color: #428bca;
-    border: 2px solid #428bca;
+    background-color: #43c2b3;
+    border: 2px solid #43c2b3;
 
     .svg-icon {
         path, rect, polygon {
-            fill: #428bca;
+            fill: #43c2b3;
         }
     }
 
     &:active, &:focus {
-        color: darken(#428bca,20%) !important;
+        color: darken(#43c2b3,20%) !important;
         background-color: #fff !important;
-        border: 2px solid #428bca;
+        border: 2px solid #43c2b3;
     }
 
     &.active, &:active.active, .dropdown.open & {
-        color: darken(#428bca,20%) !important;
-        background-color: lighten(#428bca,30%) !important;
-        border: 2px solid #428bca !important;
+        color: darken(#43c2b3,20%) !important;
+        background-color: lighten(#43c2b3,30%) !important;
+        border: 2px solid #43c2b3 !important;
     }
 
     &:hover {
-        color: darken(#428bca,20%);
-        background-color: lighten(#428bca,30%);
-        border: 2px solid #428bca;
+        color: darken(#43c2b3,20%);
+        background-color: lighten(#43c2b3,30%);
+        border: 2px solid #43c2b3;
 
         .svg-icon {
             path {
-                fill: darken(#428bca,20%);
+                fill: darken(#43c2b3,20%);
             }
         }
     }
 
     &[disabled] {
         background-color: #fff;
-        color: lighten(#428bca,20%) !important;
+        color: lighten(#43c2b3,20%) !important;
     }
 }
 .btn-tools {
     color: #fff;
-    background-color: #428bca;
-    border: 1px solid #428bca;
+    background-color: #43c2b3;
+    border: 1px solid #43c2b3;
     .svg-icon {
         path, rect, polygon {
-            fill: #428bca;
+            fill: #43c2b3;
         }
     }
 
     &:active, &:focus {
-        color: darken(#428bca,20%) !important;
-        background-color: #428bca !important;
-        border: 1px solid #428bca;
+        color: darken(#43c2b3,20%) !important;
+        background-color: #43c2b3 !important;
+        border: 1px solid #43c2b3;
     }
 
     &.active, &:active.active, .dropdown.open & {
-        color: darken(#428bca,20%) !important;
-        background-color: lighten(#428bca,30%) !important;
-        border: 1px solid #428bca !important;
+        color: darken(#43c2b3,20%) !important;
+        background-color: lighten(#43c2b3,30%) !important;
+        border: 1px solid #43c2b3 !important;
     }
     &:hover {
-        color: darken(#428bca,20%);
-        background-color: lighten(#428bca,30%);
-        border: 1px solid #428bca;
+        color: darken(#43c2b3,20%);
+        background-color: lighten(#43c2b3,30%);
+        border: 1px solid #43c2b3;
 
         .svg-icon {
             path {
-                fill: darken(#428bca,20%);
+                fill: darken(#43c2b3,20%);
             }
         }
     }
 
     &[disabled] {
-        background-color: #428bca;
-        color: lighten(#428bca,20%) !important;
+        background-color: #43c2b3;
+        color: lighten(#43c2b3,20%) !important;
     }
 }
 .btn-svgicon {

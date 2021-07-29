@@ -8,16 +8,16 @@ $border-radius-small:                       2px;
 $input-border-radius:                       3px;
 $grid-float-breakpoint:                     $screen-md;
 $navbar-height:                             40px;
-$navbar-inverse-link-active-bg:             #4E7294;//darken($navbar-inverse-bg, 10%)
-$navbar-inverse-toggle-hover-bg:            #19334b;
-$navbar-inverse-toggle-border-color:        #19334b;
+$navbar-inverse-link-active-bg:             #81d8d0;//darken($navbar-inverse-bg, 10%)
+$navbar-inverse-toggle-hover-bg:            #43c2b3;
+$navbar-inverse-toggle-border-color:        #43c2b3;
 $headings-font-weight:                      bold;
 $grid-gutter-width:                         20px;
 
 $brand-warning: #E59545;
 $brand-success: #4C994C;
 $brand-danger: #B24342;
-$brand-info: #4F689E;
+$brand-info: #43c2b3;
 
 // Core variables and mixins
 @import "bootstrap/variables";
@@ -85,8 +85,6 @@ $brand-info: #4F689E;
         "encoded/modules/key-value-display",
         "encoded/modules/lightbox",
         "encoded/modules/matrix",
-        "encoded/modules/auditmatrix",
-        "encoded/modules/collection",
         "encoded/modules/lists",
         "encoded/modules/loading-spinner",
         "encoded/modules/modals",

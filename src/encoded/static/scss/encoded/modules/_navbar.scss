@@ -1,8 +1,8 @@
 /* NavBar */
 .navbar-inverse {
     border: none;
-    border-bottom: 2px solid #DCDCDC;
-    background: #ffffff;
+    border-bottom: 0px solid  #9dcfc9;
+    background: #9dcfc9;
     font-size: 1.25rem;
     .navbar-brand {
         margin-left: 0px;
@@ -14,7 +14,7 @@
         font-weight: 400;
 	&:focus,
         &:hover {
-	    background-color: #DCDCDC;
+	    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
         }
     }
 
@@ -22,13 +22,14 @@
         position: relative;
         display: block;
         padding: 10px 15px;
-        color: #696969;
-        background-color: transparent;
+        color: #fff;
+        background-color: #9dcfc9;
         border: none;
 
         &:focus,
         &:hover {
-            background-color: #DCDCDC;
+            background-color: #9dcfc9;
+            text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
         }
 
         /* Disabled sign-in link */

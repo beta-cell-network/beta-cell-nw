@@ -27,51 +27,11 @@ export default class Home extends React.Component {
                         <div ref="graphdisplay">
                         <div className="overall-classic">
                         <div className="site-banner">
-		        <img src="/static/img/logo.png" alt="logo"/>
+		        <h2>Beta Cell Network</h2>
+                        <p><h7>The goal of this portal is to help share data in our project across groups at UCSD. The data is all coming from one type of cell, which is hESC-derived beta cells. The assays are single cell ATAC-seq, single cell RNA-seq and single cell methyl hi-C (scMethylHiC).</h7></p>
                         </div>
                         </div>
                         </div>
-                        <div className="row">
-                        </div>
-                        <div ref="graphdisplay">
-                        <div className="overall-classic">
-                        <div className="site-tools">
-                        <div className="site-banner-intro">
-                        <div className="site-search">Search meta-data:
-                        <Search />
-                        </div>
-                        <div className="site-search">Browse data:<br/>
-                        <select class="form-select" name="dataset" onChange="window.document.location.href=this.options[this.selectedIndex].value;">
-                        <option></option>
-                        <option value="http://www.demo.commondiseaseepigenome.org/matrix/?type=Experiment">Experiment</option>
-                        <option value="annotation">Annotation</option>
-                        <option value="embeddings">Single Cell Embeddings</option>
-                        <option value="model">Statistical Models</option>
-                        <option value="perturbation">Gene Perturbations</option>
-                        </select>
-                        </div>
-                        </div>
-                        <div className="site-banner-text">
-<div className="site-search">Annotate genetic variants:<a className="btn-lg btn-tools" target="_blank" href = { '/variant-search/' } style= {{ 'font-size': '14px', 'font-family': 'Helvetica Neue,Helvetica,Arial,sans-serif', 'margin-top': '5px', 'margin-left':'20px', 'word-break': 'break-word', 'display': '-webkit-inline-box','justify-content': 'center', 'text-align': 'center', 'align-items': 'center'}} title="search">GO</a></div>
-<div className="site-search">Single cell browser:<a className="btn-lg btn-tools" target="_blank" href = { 'http://www.single-cell.cmdga.org/cellxgene/' } style= {{ 'font-size': '14px', 'font-family': 'Helvetica Neue,Helvetica,Arial,sans-serif', 'margin-top': '5px', 'margin-left':'78px', 'word-break': 'break-word', 'display': '-webkit-inline-box','justify-content': 'center', 'text-align': 'center', 'align-items': 'center'}} title="search">GO</a></div>
-<div className="site-search">Gene expression browser:<a className="btn-lg btn-tools" target="_blank" href = { 'http://www.single-cell.cmdga.org/gene-expression/' } style= {{ 'font-size': '14px', 'font-family': 'Helvetica Neue,Helvetica,Arial,sans-serif', 'margin-top': '5px', 'margin-left':'20px', 'word-break': 'break-word', 'display': '-webkit-inline-box','justify-content': 'center', 'text-align': 'center', 'align-items': 'center'}} title="search">GO</a></div>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-                        <div className="row">
-                        </div>                     
-                                 <div className="social">
-                                <h6 style= {{ 'font-size': '1.3rem', 'font-weight':'normal', 'font-family': 'Helvetica Neue,Helvetica,Arial,sans-serif', 'margin-top': '50px', 'margin-left':'50px', 'word-break': 'break-word', 'display': '-webkit-inline-box'}}>The <a href='https://fnih.org/our-programs/amp/accelerating-medicines-common-metabolic-diseases'>AMP CMD Consortium</a> is a collaboration among the following organizations, which also provide funding and/or governance:</h6>
-                                <div className="social-news">
-                                <img src="/static/img/thumbnail_nih_2021.png" alt="logo"/>
-                                <img src="/static/img/thumbnail_fnih_2021.png" alt="logo"/>
-                                <img src="/static/img/thumbnail_amgen_2021.png" alt="logo"/>
-                                <img src="/static/img/thumbnail_lilly_2021.png" alt="logo"/>
-                                <img src="/static/img/thumbnail_nordisk_2021.png" alt="logo"/>
-                                <img src="/static/img/thumbnail_pfizer_2021.png" alt="logo"/>
-                                </div>		
-                            </div>
                         </Panel>
                     </div>
                 </div>
